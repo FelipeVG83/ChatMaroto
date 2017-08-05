@@ -69,17 +69,31 @@ Public Class Form1
 
     Private Function sendMessage()
         If (File.Exists(caminho)) Then
-            Using sw As StreamWriter = New StreamWriter(caminho, True)
-                sw.WriteLine()
-                sw.WriteLine(usuario + ": " + txtMensagem.Text)
-            End Using
-            Using sr As StreamReader = File.OpenText(caminho)
-                txtChat.Text = sr.ReadToEnd
-            End Using
-            txtMensagem.Clear()
+            If (txtMensagem.Text <> "") Then
+                MessageBox.Show(txtChat.Text)
+                verifyLastSender()
+                Using sw As StreamWriter = New StreamWriter(caminho, True)
+                    sw.WriteLine()
+                    sw.WriteLine(usuario + ": " + txtMensagem.Text)
+                End Using
+                Using sr As StreamReader = File.OpenText(caminho)
+                    txtChat.Text = sr.ReadToEnd
+                End Using
+                txtMensagem.Clear()
+            End If
         Else
             MessageBox.Show("Arquivo não encontrado ", "Nome do arquivo", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Function
 
+    Private Function verifyLastSender()
+        Dim text As String
+        text = txtChat.Text
+        For Each strLine As String In txtChat.Text.Split(vbNewLine)
+            Dim palavras As String() = strLine.Split(New Char() {" "c})
+            If (palavras(0) = usuario + ":") Then
+                MessageBox.Show("Funcionou!")
+            End If
+        Next
+    End Function
 End Class

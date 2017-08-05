@@ -85,6 +85,12 @@
     <Compile Include="frmChatsAbertos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmImagem.Designer.vb">
+      <DependentUpon>frmImagem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImagem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmChatsAbertos.resx">
       <DependentUpon>frmChatsAbertos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImagem.resx">
+      <DependentUpon>frmImagem.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

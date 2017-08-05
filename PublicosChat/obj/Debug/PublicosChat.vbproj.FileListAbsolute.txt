@@ -44,3 +44,4 @@ D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Form1.resources
 D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.frmChatsAbertos.resources
 D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Resources.resources
 D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.vbproj.GenerateResource.Cache
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.frmImagem.resources
