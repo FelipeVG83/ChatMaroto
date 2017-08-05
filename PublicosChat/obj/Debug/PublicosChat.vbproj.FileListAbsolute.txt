@@ -32,3 +32,15 @@ C:\Users\logonrm\Downloads\ChatMaroto\PublicosChat\PublicosChat\obj\Debug\Public
 C:\Users\logonrm\Downloads\ChatMaroto\PublicosChat\PublicosChat\obj\Debug\PublicosChat.Resources.resources
 C:\Users\logonrm\Downloads\ChatMaroto\PublicosChat\PublicosChat\obj\Debug\PublicosChat.vbproj.GenerateResource.Cache
 C:\Users\logonrm\Downloads\ChatMaroto\PublicosChat\PublicosChat\obj\Debug\PublicosChat.frmChatsAbertos.resources
+D:\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.exe.config
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.exe
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.xml
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.pdb
+D:\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.exe
+D:\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.pdb
+D:\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.xml
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.vbprojResolveAssemblyReference.cache
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Form1.resources
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.frmChatsAbertos.resources
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Resources.resources
+D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.vbproj.GenerateResource.Cache
