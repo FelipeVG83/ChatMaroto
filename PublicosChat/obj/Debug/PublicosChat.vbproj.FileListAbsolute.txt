@@ -44,3 +44,15 @@ D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Form1.resources
 D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.frmChatsAbertos.resources
 D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Resources.resources
 D:\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.vbproj.GenerateResource.Cache
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.exe.config
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.exe
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.pdb
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\bin\Debug\PublicosChat.xml
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.vbprojResolveAssemblyReference.cache
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Form1.resources
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.frmChatsAbertos.resources
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.Resources.resources
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.vbproj.GenerateResource.Cache
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.exe
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.xml
+C:\Users\logonrm\Desktop\ChatMaroto\ChatMaroto\PublicosChat\obj\Debug\PublicosChat.pdb

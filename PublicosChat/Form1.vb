@@ -4,10 +4,10 @@ Imports System.Text
 
 Public Class Form1
     Public flagExiteChat As Boolean
-    Public caminho, usuario As String
+    Public caminho, usuario, Carrega As String
     Dim Leitor As System.IO.FileInfo
     Dim infoReader As System.IO.FileInfo
-    Public Teste As Date
+    Public Teste As Int32
 
     Private Sub btnCriarSala_Click(sender As Object, e As EventArgs) Handles btnCriarSala.Click
         Dim nomeNovoChat = InputBox("Digite o nome da nova sala: ", "Nova Sala")
@@ -30,16 +30,15 @@ Public Class Form1
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         If (flagExiteChat = True) Then
+
+            Using sr As StreamReader = File.OpenText(Carrega)
+                Teste = sr.ReadToEnd
+            End Using
+
+
             Using sr As StreamReader = File.OpenText(caminho)
                 txtChat.Text = sr.ReadToEnd
                 infoReader = My.Computer.FileSystem.GetFileInfo(caminho)
-
-                If (Teste = infoReader.LastWriteTime) Then
-                    txtChat.Text = txtChat.Text & Chr(13) & Chr(10)
-                    txtChat.SelectionStart = 10
-                Else
-                    Teste = infoReader.LastWriteTime
-                End If
             End Using
         End If
     End Sub
@@ -60,11 +59,18 @@ Public Class Form1
             System.IO.Directory.CreateDirectory("P:\Speaker\")
         End If
         caminho = "P:\Speaker\" + nomeNovoChat + ".txt"
+        Carrega = "P:\Speaker\" + nomeNovoChat + "_Carrega.txt"
 
         If Not File.Exists(caminho) Then
             Using sw As FileStream = File.Create(caminho)
                 Dim texto As Byte() = New UTF8Encoding(True).GetBytes(nomeNovoChat)
                 sw.Write(texto, 0, texto.Length)
+            End Using
+            Using sw As FileStream = File.Create(Carrega)
+                Dim texto2 As Byte() = New UTF8Encoding(True).GetBytes(nomeNovoChat + "_Carrega")
+            End Using
+            Using sw As StreamWriter = New StreamWriter(Carrega, True)
+                sw.WriteLine(0)
             End Using
             Using sr As StreamReader = File.OpenText(caminho)
                 txtChat.Text = sr.ReadToEnd
